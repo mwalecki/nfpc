@@ -140,14 +140,14 @@ void ComSender::updateCommandArray(){
     }
     if(ui->cbEnServos->isChecked()){
         commandArray[commandCnt++] = NF_COMMAND_SetServosPosition;
-        NFComBuf.SetServosPosition.data[0] = ui->setSrv0->value();
-        NFComBuf.SetServosPosition.data[1] = ui->setSrv1->value();
-        NFComBuf.SetServosPosition.data[2] = ui->setSrv2->value();
-        NFComBuf.SetServosPosition.data[3] = ui->setSrv3->value();
-        NFComBuf.SetServosPosition.data[4] = ui->setSrv4->value();
-        NFComBuf.SetServosPosition.data[5] = ui->setSrv5->value();
-        NFComBuf.SetServosPosition.data[6] = ui->setSrv6->value();
-        NFComBuf.SetServosPosition.data[7] = ui->setSrv7->value();
+        NFComBuf.SetServosPosition.data[0] = (ui->cbZeroSrv0->isChecked()? 0 : ui->setSrv0->value());
+        NFComBuf.SetServosPosition.data[1] = (ui->cbZeroSrv1->isChecked()? 0 : ui->setSrv1->value());
+        NFComBuf.SetServosPosition.data[2] = (ui->cbZeroSrv2->isChecked()? 0 : ui->setSrv2->value());
+        NFComBuf.SetServosPosition.data[3] = (ui->cbZeroSrv3->isChecked()? 0 : ui->setSrv3->value());
+        NFComBuf.SetServosPosition.data[4] = (ui->cbZeroSrv4->isChecked()? 0 : ui->setSrv4->value());
+        NFComBuf.SetServosPosition.data[5] = (ui->cbZeroSrv5->isChecked()? 0 : ui->setSrv5->value());
+        NFComBuf.SetServosPosition.data[6] = (ui->cbZeroSrv6->isChecked()? 0 : ui->setSrv6->value());
+        NFComBuf.SetServosPosition.data[7] = (ui->cbZeroSrv7->isChecked()? 0 : ui->setSrv7->value());
     }
     if(ui->cbEnDigitalOut->isChecked()){
         commandArray[commandCnt++] = NF_COMMAND_SetDigitalOutputs;
