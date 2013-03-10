@@ -74,7 +74,7 @@
       </rect>
      </property>
      <property name="maximum">
-      <number>100000</number>
+      <number>300000</number>
      </property>
      <property name="singleStep">
       <number>100</number>
@@ -144,7 +144,7 @@
       <rect>
        <x>10</x>
        <y>20</y>
-       <width>31</width>
+       <width>50</width>
        <height>18</height>
       </rect>
      </property>
@@ -674,7 +674,7 @@
       <rect>
        <x>10</x>
        <y>20</y>
-       <width>31</width>
+       <width>50</width>
        <height>18</height>
       </rect>
      </property>
@@ -1100,7 +1100,7 @@
       <rect>
        <x>20</x>
        <y>50</y>
-       <width>131</width>
+       <width>120</width>
        <height>16</height>
       </rect>
      </property>
@@ -1123,9 +1123,9 @@
     <widget class="QSpinBox" name="dispSrv0">
      <property name="geometry">
       <rect>
-       <x>156</x>
+       <x>150</x>
        <y>51</y>
-       <width>31</width>
+       <width>40</width>
        <height>16</height>
       </rect>
      </property>
@@ -1249,9 +1249,9 @@
     <widget class="QSpinBox" name="dispSrv1">
      <property name="geometry">
       <rect>
-       <x>156</x>
+       <x>150</x>
        <y>71</y>
-       <width>31</width>
+       <width>40</width>
        <height>16</height>
       </rect>
      </property>
@@ -1273,7 +1273,7 @@
       <rect>
        <x>20</x>
        <y>70</y>
-       <width>131</width>
+       <width>120</width>
        <height>16</height>
       </rect>
      </property>
@@ -1296,9 +1296,9 @@
     <widget class="QSpinBox" name="dispSrv2">
      <property name="geometry">
       <rect>
-       <x>156</x>
+       <x>150</x>
        <y>91</y>
-       <width>31</width>
+       <width>40</width>
        <height>16</height>
       </rect>
      </property>
@@ -1320,7 +1320,7 @@
       <rect>
        <x>20</x>
        <y>90</y>
-       <width>131</width>
+       <width>120</width>
        <height>16</height>
       </rect>
      </property>
@@ -1343,9 +1343,9 @@
     <widget class="QSpinBox" name="dispSrv3">
      <property name="geometry">
       <rect>
-       <x>156</x>
+       <x>150</x>
        <y>111</y>
-       <width>31</width>
+       <width>40</width>
        <height>16</height>
       </rect>
      </property>
@@ -1367,7 +1367,7 @@
       <rect>
        <x>20</x>
        <y>110</y>
-       <width>131</width>
+       <width>120</width>
        <height>16</height>
       </rect>
      </property>
@@ -1390,9 +1390,9 @@
     <widget class="QSpinBox" name="dispSrv4">
      <property name="geometry">
       <rect>
-       <x>156</x>
+       <x>150</x>
        <y>131</y>
-       <width>31</width>
+       <width>40</width>
        <height>16</height>
       </rect>
      </property>
@@ -1414,7 +1414,7 @@
       <rect>
        <x>20</x>
        <y>130</y>
-       <width>131</width>
+       <width>120</width>
        <height>16</height>
       </rect>
      </property>
@@ -1437,9 +1437,9 @@
     <widget class="QSpinBox" name="dispSrv5">
      <property name="geometry">
       <rect>
-       <x>156</x>
+       <x>150</x>
        <y>151</y>
-       <width>31</width>
+       <width>40</width>
        <height>16</height>
       </rect>
      </property>
@@ -1461,7 +1461,7 @@
       <rect>
        <x>20</x>
        <y>150</y>
-       <width>131</width>
+       <width>120</width>
        <height>16</height>
       </rect>
      </property>
@@ -1484,9 +1484,9 @@
     <widget class="QSpinBox" name="dispSrv6">
      <property name="geometry">
       <rect>
-       <x>156</x>
+       <x>150</x>
        <y>171</y>
-       <width>31</width>
+       <width>40</width>
        <height>16</height>
       </rect>
      </property>
@@ -1508,7 +1508,7 @@
       <rect>
        <x>20</x>
        <y>170</y>
-       <width>131</width>
+       <width>120</width>
        <height>16</height>
       </rect>
      </property>
@@ -1531,9 +1531,9 @@
     <widget class="QSpinBox" name="dispSrv7">
      <property name="geometry">
       <rect>
-       <x>156</x>
+       <x>150</x>
        <y>191</y>
-       <width>31</width>
+       <width>40</width>
        <height>16</height>
       </rect>
      </property>
@@ -1555,7 +1555,7 @@
       <rect>
        <x>20</x>
        <y>190</y>
-       <width>131</width>
+       <width>120</width>
        <height>16</height>
       </rect>
      </property>
@@ -1801,9 +1801,9 @@
     <widget class="QLabel" name="label_21">
      <property name="geometry">
       <rect>
-       <x>100</x>
+       <x>94</x>
        <y>20</y>
-       <width>30</width>
+       <width>40</width>
        <height>20</height>
       </rect>
      </property>
@@ -1856,9 +1856,9 @@
     <widget class="QSpinBox" name="sbAddress">
      <property name="geometry">
       <rect>
-       <x>40</x>
+       <x>43</x>
        <y>20</y>
-       <width>41</width>
+       <width>47</width>
        <height>20</height>
       </rect>
      </property>
@@ -2003,7 +2003,7 @@
       <rect>
        <x>10</x>
        <y>80</y>
-       <width>61</width>
+       <width>60</width>
        <height>21</height>
       </rect>
      </property>
@@ -2477,7 +2477,7 @@
       <rect>
        <x>10</x>
        <y>20</y>
-       <width>31</width>
+       <width>50</width>
        <height>18</height>
       </rect>
      </property>
@@ -2595,7 +2595,7 @@
      <rect>
       <x>450</x>
       <y>10</y>
-      <width>191</width>
+      <width>230</width>
       <height>131</height>
      </rect>
     </property>
@@ -2620,7 +2620,7 @@
       <rect>
        <x>10</x>
        <y>20</y>
-       <width>31</width>
+       <width>50</width>
        <height>18</height>
       </rect>
      </property>
@@ -2722,7 +2722,7 @@
     <widget class="QCheckBox" name="cbDOut2_0">
      <property name="geometry">
       <rect>
-       <x>70</x>
+       <x>80</x>
        <y>40</y>
        <width>31</width>
        <height>18</height>
@@ -2735,7 +2735,7 @@
     <widget class="QCheckBox" name="cbDOut2_1">
      <property name="geometry">
       <rect>
-       <x>70</x>
+       <x>80</x>
        <y>60</y>
        <width>31</width>
        <height>18</height>
@@ -2748,7 +2748,7 @@
     <widget class="QCheckBox" name="cbDOut2_2">
      <property name="geometry">
       <rect>
-       <x>70</x>
+       <x>80</x>
        <y>80</y>
        <width>31</width>
        <height>18</height>
@@ -2761,7 +2761,7 @@
     <widget class="QCheckBox" name="cbDOut2_3">
      <property name="geometry">
       <rect>
-       <x>70</x>
+       <x>80</x>
        <y>100</y>
        <width>31</width>
        <height>18</height>
@@ -2774,7 +2774,7 @@
     <widget class="QCheckBox" name="cbDOut2_4">
      <property name="geometry">
       <rect>
-       <x>100</x>
+       <x>110</x>
        <y>40</y>
        <width>31</width>
        <height>18</height>
@@ -2787,7 +2787,7 @@
     <widget class="QCheckBox" name="cbDOut2_5">
      <property name="geometry">
       <rect>
-       <x>100</x>
+       <x>110</x>
        <y>60</y>
        <width>31</width>
        <height>18</height>
@@ -2800,7 +2800,7 @@
     <widget class="QCheckBox" name="cbDOut2_6">
      <property name="geometry">
       <rect>
-       <x>100</x>
+       <x>110</x>
        <y>80</y>
        <width>31</width>
        <height>18</height>
@@ -2813,7 +2813,7 @@
     <widget class="QCheckBox" name="cbDOut2_7">
      <property name="geometry">
       <rect>
-       <x>100</x>
+       <x>110</x>
        <y>100</y>
        <width>31</width>
        <height>18</height>
@@ -2826,7 +2826,7 @@
     <widget class="QCheckBox" name="cbDOut3_0">
      <property name="geometry">
       <rect>
-       <x>130</x>
+       <x>150</x>
        <y>40</y>
        <width>31</width>
        <height>18</height>
@@ -2839,7 +2839,7 @@
     <widget class="QCheckBox" name="cbDOut3_1">
      <property name="geometry">
       <rect>
-       <x>130</x>
+       <x>150</x>
        <y>60</y>
        <width>31</width>
        <height>18</height>
@@ -2852,7 +2852,7 @@
     <widget class="QCheckBox" name="cbDOut3_2">
      <property name="geometry">
       <rect>
-       <x>130</x>
+       <x>150</x>
        <y>80</y>
        <width>31</width>
        <height>18</height>
@@ -2865,7 +2865,7 @@
     <widget class="QCheckBox" name="cbDOut3_3">
      <property name="geometry">
       <rect>
-       <x>130</x>
+       <x>150</x>
        <y>100</y>
        <width>31</width>
        <height>18</height>
@@ -2878,9 +2878,9 @@
     <widget class="QCheckBox" name="cbDOut3_4">
      <property name="geometry">
       <rect>
-       <x>160</x>
+       <x>180</x>
        <y>40</y>
-       <width>31</width>
+       <width>30</width>
        <height>18</height>
       </rect>
      </property>
@@ -2891,9 +2891,9 @@
     <widget class="QCheckBox" name="cbDOut3_5">
      <property name="geometry">
       <rect>
-       <x>160</x>
+       <x>180</x>
        <y>60</y>
-       <width>31</width>
+       <width>30</width>
        <height>18</height>
       </rect>
      </property>
@@ -2904,9 +2904,9 @@
     <widget class="QCheckBox" name="cbDOut3_6">
      <property name="geometry">
       <rect>
-       <x>160</x>
+       <x>180</x>
        <y>80</y>
-       <width>31</width>
+       <width>30</width>
        <height>18</height>
       </rect>
      </property>
@@ -2917,9 +2917,9 @@
     <widget class="QCheckBox" name="cbDOut3_7">
      <property name="geometry">
       <rect>
-       <x>160</x>
+       <x>180</x>
        <y>100</y>
-       <width>31</width>
+       <width>30</width>
        <height>18</height>
       </rect>
      </property>
@@ -3020,9 +3020,9 @@
     <widget class="QSpinBox" name="dispDrivesPosition0">
      <property name="geometry">
       <rect>
-       <x>160</x>
+       <x>155</x>
        <y>50</y>
-       <width>40</width>
+       <width>48</width>
        <height>17</height>
       </rect>
      </property>
@@ -3045,9 +3045,9 @@
     <widget class="QSpinBox" name="dispDrivesPosition1">
      <property name="geometry">
       <rect>
-       <x>160</x>
+       <x>155</x>
        <y>70</y>
-       <width>40</width>
+       <width>48</width>
        <height>17</height>
       </rect>
      </property>
@@ -3070,9 +3070,9 @@
     <widget class="QSpinBox" name="dispDrivesPosition2">
      <property name="geometry">
       <rect>
-       <x>160</x>
+       <x>155</x>
        <y>90</y>
-       <width>40</width>
+       <width>48</width>
        <height>17</height>
       </rect>
      </property>
@@ -3095,9 +3095,9 @@
     <widget class="QSpinBox" name="dispDrivesPosition3">
      <property name="geometry">
       <rect>
-       <x>160</x>
+       <x>155</x>
        <y>110</y>
-       <width>40</width>
+       <width>48</width>
        <height>17</height>
       </rect>
      </property>
@@ -3197,7 +3197,7 @@
       <rect>
        <x>10</x>
        <y>20</y>
-       <width>31</width>
+       <width>50</width>
        <height>18</height>
       </rect>
      </property>
@@ -3211,7 +3211,7 @@
      <rect>
       <x>560</x>
       <y>370</y>
-      <width>60</width>
+      <width>120</width>
       <height>140</height>
      </rect>
     </property>
@@ -3236,7 +3236,7 @@
       <rect>
        <x>10</x>
        <y>50</y>
-       <width>40</width>
+       <width>100</width>
        <height>17</height>
       </rect>
      </property>
@@ -3250,10 +3250,10 @@
       <bool>true</bool>
      </property>
      <property name="minimum">
-      <number>-9999999</number>
+      <number>-99999999</number>
      </property>
      <property name="maximum">
-      <number>9999999</number>
+      <number>99999999</number>
      </property>
     </widget>
     <widget class="QSpinBox" name="dispReadDrivesPosition2">
@@ -3261,7 +3261,7 @@
       <rect>
        <x>10</x>
        <y>90</y>
-       <width>40</width>
+       <width>100</width>
        <height>17</height>
       </rect>
      </property>
@@ -3275,10 +3275,10 @@
       <bool>true</bool>
      </property>
      <property name="minimum">
-      <number>-9999999</number>
+      <number>-99999999</number>
      </property>
      <property name="maximum">
-      <number>9999999</number>
+      <number>99999999</number>
      </property>
     </widget>
     <widget class="QSpinBox" name="dispReadDrivesPosition3">
@@ -3286,7 +3286,7 @@
       <rect>
        <x>10</x>
        <y>110</y>
-       <width>40</width>
+       <width>100</width>
        <height>17</height>
       </rect>
      </property>
@@ -3300,10 +3300,10 @@
       <bool>true</bool>
      </property>
      <property name="minimum">
-      <number>-9999999</number>
+      <number>-99999999</number>
      </property>
      <property name="maximum">
-      <number>9999999</number>
+      <number>99999999</number>
      </property>
     </widget>
     <widget class="QSpinBox" name="dispReadDrivesPosition1">
@@ -3311,7 +3311,7 @@
       <rect>
        <x>10</x>
        <y>70</y>
-       <width>40</width>
+       <width>100</width>
        <height>17</height>
       </rect>
      </property>
@@ -3325,10 +3325,10 @@
       <bool>true</bool>
      </property>
      <property name="minimum">
-      <number>-9999999</number>
+      <number>-99999999</number>
      </property>
      <property name="maximum">
-      <number>9999999</number>
+      <number>99999999</number>
      </property>
     </widget>
    </widget>
@@ -3517,7 +3517,7 @@
      <x>0</x>
      <y>0</y>
      <width>695</width>
-     <height>24</height>
+     <height>23</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuNFv2">
