@@ -37,6 +37,7 @@ extern "C" {
 
     #define NF_BUFSZ_SetDigitalOutputs	6
     #define NF_BUFSZ_ReadAnalogInputs	16
+    #define NF_BUFSZ_ReadDigitalInputs  3
 
 /*
 * Remember to declare:

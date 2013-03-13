@@ -192,6 +192,9 @@ void ComSender::updateCommandArray(){
     if(ui->cbEnReadDrivesStatus->isChecked()){
         commandArray[commandCnt++] = NF_COMMAND_ReadDrivesStatus;
     }
+    if(ui->cbEnDigitalIn->isChecked()){
+        commandArray[commandCnt++] = NF_COMMAND_ReadDigitalInputs;
+    }
     if(ui->cbEnVitals->isChecked()){
         commandArray[commandCnt++] = NF_COMMAND_ReadDeviceVitals;
     }

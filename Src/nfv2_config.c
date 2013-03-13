@@ -66,6 +66,10 @@ void NFv2_Config2(NF_STRUCT_ComBuf *NFComBuf, uint8_t myAddress, uint8_t deviceA
     NFComBuf->SetDigitalOutputs.addr[4] = deviceAddress;
     NFComBuf->SetDigitalOutputs.addr[5] = deviceAddress;
 
+    NFComBuf->ReadDigitalInputs.addr[0] = deviceAddress;
+    NFComBuf->ReadDigitalInputs.addr[1] = deviceAddress;
+    NFComBuf->ReadDigitalInputs.addr[2] = deviceAddress;
+
     NFComBuf->SetServosPosition.addr[0] = deviceAddress;
     NFComBuf->SetServosPosition.addr[1] = deviceAddress;
     NFComBuf->SetServosPosition.addr[2] = deviceAddress;

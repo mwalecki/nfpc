@@ -157,6 +157,33 @@ void MainWindow::slot_dataReceived(){
     ui->cbDrivesStatusSynchronized1->setChecked((NFComBuf.ReadDrivesStatus.data[1] & NF_DrivesStatus_Synchronized) ? true : false);
     ui->cbDrivesStatusOvercurrent1->setChecked((NFComBuf.ReadDrivesStatus.data[1] & NF_DrivesStatus_Overcurrent) ? true : false);
     ui->cbDrivesStatusError1->setChecked((NFComBuf.ReadDrivesStatus.data[1] & NF_DrivesStatus_Error) ? true : false);
+
+    ui->cbDIn1_0->setChecked((NFComBuf.ReadDigitalInputs.data[0] & (1<<0)) ? true : false);
+    ui->cbDIn1_1->setChecked((NFComBuf.ReadDigitalInputs.data[0] & (1<<1)) ? true : false);
+    ui->cbDIn1_2->setChecked((NFComBuf.ReadDigitalInputs.data[0] & (1<<2)) ? true : false);
+    ui->cbDIn1_3->setChecked((NFComBuf.ReadDigitalInputs.data[0] & (1<<3)) ? true : false);
+    ui->cbDIn1_4->setChecked((NFComBuf.ReadDigitalInputs.data[0] & (1<<4)) ? true : false);
+    ui->cbDIn1_5->setChecked((NFComBuf.ReadDigitalInputs.data[0] & (1<<5)) ? true : false);
+    ui->cbDIn1_6->setChecked((NFComBuf.ReadDigitalInputs.data[0] & (1<<6)) ? true : false);
+    ui->cbDIn1_7->setChecked((NFComBuf.ReadDigitalInputs.data[0] & (1<<7)) ? true : false);
+
+    ui->cbDIn2_0->setChecked((NFComBuf.ReadDigitalInputs.data[1] & (1<<0)) ? true : false);
+    ui->cbDIn2_1->setChecked((NFComBuf.ReadDigitalInputs.data[1] & (1<<1)) ? true : false);
+    ui->cbDIn2_2->setChecked((NFComBuf.ReadDigitalInputs.data[1] & (1<<2)) ? true : false);
+    ui->cbDIn2_3->setChecked((NFComBuf.ReadDigitalInputs.data[1] & (1<<3)) ? true : false);
+    ui->cbDIn2_4->setChecked((NFComBuf.ReadDigitalInputs.data[1] & (1<<4)) ? true : false);
+    ui->cbDIn2_5->setChecked((NFComBuf.ReadDigitalInputs.data[1] & (1<<5)) ? true : false);
+    ui->cbDIn2_6->setChecked((NFComBuf.ReadDigitalInputs.data[1] & (1<<6)) ? true : false);
+    ui->cbDIn2_7->setChecked((NFComBuf.ReadDigitalInputs.data[1] & (1<<7)) ? true : false);
+
+    ui->cbDIn3_0->setChecked((NFComBuf.ReadDigitalInputs.data[2] & (1<<0)) ? true : false);
+    ui->cbDIn3_1->setChecked((NFComBuf.ReadDigitalInputs.data[2] & (1<<1)) ? true : false);
+    ui->cbDIn3_2->setChecked((NFComBuf.ReadDigitalInputs.data[2] & (1<<2)) ? true : false);
+    ui->cbDIn3_3->setChecked((NFComBuf.ReadDigitalInputs.data[2] & (1<<3)) ? true : false);
+    ui->cbDIn3_4->setChecked((NFComBuf.ReadDigitalInputs.data[2] & (1<<4)) ? true : false);
+    ui->cbDIn3_5->setChecked((NFComBuf.ReadDigitalInputs.data[2] & (1<<5)) ? true : false);
+    ui->cbDIn3_6->setChecked((NFComBuf.ReadDigitalInputs.data[2] & (1<<6)) ? true : false);
+    ui->cbDIn3_7->setChecked((NFComBuf.ReadDigitalInputs.data[2] & (1<<7)) ? true : false);
 }
 
 void MainWindow::on_pbRescan_clicked()
