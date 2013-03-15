@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>956</width>
+    <width>928</width>
     <height>715</height>
    </rect>
   </property>
@@ -3515,8 +3515,8 @@
      <rect>
       <x>690</x>
       <y>10</y>
-      <width>260</width>
-      <height>120</height>
+      <width>230</width>
+      <height>130</height>
      </rect>
     </property>
     <property name="title">
@@ -3525,7 +3525,7 @@
     <widget class="QCheckBox" name="cbEnDigitalIn">
      <property name="geometry">
       <rect>
-       <x>0</x>
+       <x>10</x>
        <y>20</y>
        <width>50</width>
        <height>21</height>
@@ -3538,7 +3538,7 @@
     <widget class="QCheckBox" name="cbDIn1_0">
      <property name="geometry">
       <rect>
-       <x>0</x>
+       <x>10</x>
        <y>40</y>
        <width>30</width>
        <height>21</height>
@@ -3554,7 +3554,7 @@
     <widget class="QCheckBox" name="cbDIn1_1">
      <property name="geometry">
       <rect>
-       <x>0</x>
+       <x>10</x>
        <y>60</y>
        <width>30</width>
        <height>21</height>
@@ -3570,7 +3570,7 @@
     <widget class="QCheckBox" name="cbDIn1_2">
      <property name="geometry">
       <rect>
-       <x>0</x>
+       <x>10</x>
        <y>80</y>
        <width>30</width>
        <height>21</height>
@@ -3586,7 +3586,7 @@
     <widget class="QCheckBox" name="cbDIn1_3">
      <property name="geometry">
       <rect>
-       <x>0</x>
+       <x>10</x>
        <y>100</y>
        <width>30</width>
        <height>21</height>
@@ -3602,7 +3602,7 @@
     <widget class="QCheckBox" name="cbDIn1_4">
      <property name="geometry">
       <rect>
-       <x>30</x>
+       <x>40</x>
        <y>40</y>
        <width>30</width>
        <height>21</height>
@@ -3618,7 +3618,7 @@
     <widget class="QCheckBox" name="cbDIn1_5">
      <property name="geometry">
       <rect>
-       <x>30</x>
+       <x>40</x>
        <y>60</y>
        <width>30</width>
        <height>21</height>
@@ -3634,7 +3634,7 @@
     <widget class="QCheckBox" name="cbDIn1_6">
      <property name="geometry">
       <rect>
-       <x>30</x>
+       <x>40</x>
        <y>80</y>
        <width>30</width>
        <height>21</height>
@@ -3650,7 +3650,7 @@
     <widget class="QCheckBox" name="cbDIn1_7">
      <property name="geometry">
       <rect>
-       <x>30</x>
+       <x>40</x>
        <y>100</y>
        <width>30</width>
        <height>21</height>
@@ -3666,7 +3666,7 @@
     <widget class="QCheckBox" name="cbDIn2_0">
      <property name="geometry">
       <rect>
-       <x>70</x>
+       <x>80</x>
        <y>40</y>
        <width>30</width>
        <height>21</height>
@@ -3682,7 +3682,7 @@
     <widget class="QCheckBox" name="cbDIn2_1">
      <property name="geometry">
       <rect>
-       <x>70</x>
+       <x>80</x>
        <y>60</y>
        <width>30</width>
        <height>21</height>
@@ -3698,7 +3698,7 @@
     <widget class="QCheckBox" name="cbDIn2_2">
      <property name="geometry">
       <rect>
-       <x>70</x>
+       <x>80</x>
        <y>80</y>
        <width>30</width>
        <height>21</height>
@@ -3714,7 +3714,7 @@
     <widget class="QCheckBox" name="cbDIn2_3">
      <property name="geometry">
       <rect>
-       <x>70</x>
+       <x>80</x>
        <y>100</y>
        <width>30</width>
        <height>21</height>
@@ -3730,7 +3730,7 @@
     <widget class="QCheckBox" name="cbDIn2_4">
      <property name="geometry">
       <rect>
-       <x>100</x>
+       <x>110</x>
        <y>40</y>
        <width>30</width>
        <height>21</height>
@@ -3746,7 +3746,7 @@
     <widget class="QCheckBox" name="cbDIn2_5">
      <property name="geometry">
       <rect>
-       <x>100</x>
+       <x>110</x>
        <y>60</y>
        <width>30</width>
        <height>21</height>
@@ -3762,7 +3762,7 @@
     <widget class="QCheckBox" name="cbDIn2_6">
      <property name="geometry">
       <rect>
-       <x>100</x>
+       <x>110</x>
        <y>80</y>
        <width>30</width>
        <height>21</height>
@@ -3778,7 +3778,7 @@
     <widget class="QCheckBox" name="cbDIn2_7">
      <property name="geometry">
       <rect>
-       <x>100</x>
+       <x>110</x>
        <y>100</y>
        <width>30</width>
        <height>21</height>
@@ -3794,7 +3794,7 @@
     <widget class="QCheckBox" name="cbDIn3_0">
      <property name="geometry">
       <rect>
-       <x>140</x>
+       <x>150</x>
        <y>40</y>
        <width>30</width>
        <height>21</height>
@@ -3810,7 +3810,7 @@
     <widget class="QCheckBox" name="cbDIn3_1">
      <property name="geometry">
       <rect>
-       <x>140</x>
+       <x>150</x>
        <y>60</y>
        <width>30</width>
        <height>21</height>
@@ -3826,7 +3826,7 @@
     <widget class="QCheckBox" name="cbDIn3_2">
      <property name="geometry">
       <rect>
-       <x>140</x>
+       <x>150</x>
        <y>80</y>
        <width>30</width>
        <height>21</height>
@@ -3842,7 +3842,7 @@
     <widget class="QCheckBox" name="cbDIn3_3">
      <property name="geometry">
       <rect>
-       <x>140</x>
+       <x>150</x>
        <y>100</y>
        <width>30</width>
        <height>21</height>
@@ -3858,7 +3858,7 @@
     <widget class="QCheckBox" name="cbDIn3_4">
      <property name="geometry">
       <rect>
-       <x>170</x>
+       <x>180</x>
        <y>40</y>
        <width>30</width>
        <height>21</height>
@@ -3874,7 +3874,7 @@
     <widget class="QCheckBox" name="cbDIn3_5">
      <property name="geometry">
       <rect>
-       <x>170</x>
+       <x>180</x>
        <y>60</y>
        <width>30</width>
        <height>21</height>
@@ -3890,7 +3890,7 @@
     <widget class="QCheckBox" name="cbDIn3_6">
      <property name="geometry">
       <rect>
-       <x>170</x>
+       <x>180</x>
        <y>80</y>
        <width>30</width>
        <height>21</height>
@@ -3906,7 +3906,7 @@
     <widget class="QCheckBox" name="cbDIn3_7">
      <property name="geometry">
       <rect>
-       <x>170</x>
+       <x>180</x>
        <y>100</y>
        <width>30</width>
        <height>21</height>
@@ -3926,8 +3926,8 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>956</width>
-     <height>24</height>
+     <width>928</width>
+     <height>23</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuNFv2">
