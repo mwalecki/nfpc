@@ -22,6 +22,11 @@ void NFv2_Config2(NF_STRUCT_ComBuf *NFComBuf, uint8_t myAddress, uint8_t deviceA
     NFComBuf->SetDrivesPWM.addr[2] = deviceAddress;
     NFComBuf->SetDrivesPWM.addr[3] = deviceAddress;
 
+    NFComBuf->SetDrivesCurrent.addr[0] = deviceAddress;
+    NFComBuf->SetDrivesCurrent.addr[1] = deviceAddress;
+    NFComBuf->SetDrivesCurrent.addr[2] = deviceAddress;
+    NFComBuf->SetDrivesCurrent.addr[3] = deviceAddress;
+
     NFComBuf->SetDrivesSpeed.addr[0] = deviceAddress;
     NFComBuf->SetDrivesSpeed.addr[1] = deviceAddress;
     NFComBuf->SetDrivesSpeed.addr[2] = deviceAddress;

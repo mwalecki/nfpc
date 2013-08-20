@@ -25,7 +25,7 @@ extern "C" {
     #define NF_BUFSZ_SetDrivesMode		4
     #define NF_BUFSZ_SetDrivesPWM		4
     #define NF_BUFSZ_SetDrivesSpeed		4
-//	#define NF_BUFSZ_SetDrivesCurrent	4
+    #define NF_BUFSZ_SetDrivesCurrent	4
     #define NF_BUFSZ_SetDrivesPosition	4
 
 #define NF_BUFSZ_ReadDrivesPosition	4

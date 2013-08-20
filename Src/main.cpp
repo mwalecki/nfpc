@@ -13,6 +13,7 @@ int main(int argc, char *argv[])
 {
     NFv2_CrcInit();
     QApplication a(argc, argv);
+    QApplication::setStyle("cleanlooks");
     MainWindow w;
     w.show();
     

@@ -47,7 +47,6 @@ void ComSender::updateCommandArray(){
     commandCnt = 0;
     if(ui->cbEnDrive->isChecked()){
         commandArray[commandCnt++] = NF_COMMAND_SetDrivesSpeed;
-        commandArray[commandCnt++] = NF_COMMAND_SetDrivesPWM;
         if(ui->pbGoFwd->isDown()){
             NFComBuf.SetDrivesSpeed.data[0] = ui->setMaxSpeed->value();
             NFComBuf.SetDrivesSpeed.data[1] = ui->setMaxSpeed->value();
@@ -126,10 +125,120 @@ void ComSender::updateCommandArray(){
             NFComBuf.SetDrivesSpeed.data[2] = 0;
             NFComBuf.SetDrivesSpeed.data[3] = 0;
         }
-        NFComBuf.SetDrivesPWM.data[0] = NFComBuf.SetDrivesSpeed.data[0];
-        NFComBuf.SetDrivesPWM.data[1] = NFComBuf.SetDrivesSpeed.data[1];
-        NFComBuf.SetDrivesPWM.data[2] = NFComBuf.SetDrivesSpeed.data[2];
-        NFComBuf.SetDrivesPWM.data[3] = NFComBuf.SetDrivesSpeed.data[3];
+    }
+    if(ui->cbEnDrivePWM->isChecked()){
+        commandArray[commandCnt++] = NF_COMMAND_SetDrivesPWM;
+        if(ui->pbMotor0PWMUp->isDown()){
+            NFComBuf.SetDrivesPWM.data[0] = ui->setMaxPWM->value();
+            NFComBuf.SetDrivesPWM.data[1] = 0;
+            NFComBuf.SetDrivesPWM.data[2] = 0;
+            NFComBuf.SetDrivesPWM.data[3] = 0;
+        }
+        else if(ui->pbMotor0PWMDn->isDown()){
+            NFComBuf.SetDrivesPWM.data[0] = - ui->setMaxPWM->value();
+            NFComBuf.SetDrivesPWM.data[1] = 0;
+            NFComBuf.SetDrivesPWM.data[2] = 0;
+            NFComBuf.SetDrivesPWM.data[3] = 0;
+        }
+        else if(ui->pbMotor1PWMUp->isDown()){
+            NFComBuf.SetDrivesPWM.data[0] = 0;
+            NFComBuf.SetDrivesPWM.data[1] = ui->setMaxPWM->value();
+            NFComBuf.SetDrivesPWM.data[2] = 0;
+            NFComBuf.SetDrivesPWM.data[3] = 0;
+        }
+        else if(ui->pbMotor1PWMDn->isDown()){
+            NFComBuf.SetDrivesPWM.data[0] = 0;
+            NFComBuf.SetDrivesPWM.data[1] = - ui->setMaxPWM->value();
+            NFComBuf.SetDrivesPWM.data[2] = 0;
+            NFComBuf.SetDrivesPWM.data[3] = 0;
+        }
+        else if(ui->pbMotor2PWMUp->isDown()){
+            NFComBuf.SetDrivesPWM.data[0] = 0;
+            NFComBuf.SetDrivesPWM.data[1] = 0;
+            NFComBuf.SetDrivesPWM.data[2] = ui->setMaxPWM->value();
+            NFComBuf.SetDrivesPWM.data[3] = 0;
+        }
+        else if(ui->pbMotor2PWMDn->isDown()){
+            NFComBuf.SetDrivesPWM.data[0] = 0;
+            NFComBuf.SetDrivesPWM.data[1] = 0;
+            NFComBuf.SetDrivesPWM.data[2] = - ui->setMaxPWM->value();
+            NFComBuf.SetDrivesPWM.data[3] = 0;
+        }
+        else if(ui->pbMotor3PWMUp->isDown()){
+            NFComBuf.SetDrivesPWM.data[0] = 0;
+            NFComBuf.SetDrivesPWM.data[1] = 0;
+            NFComBuf.SetDrivesPWM.data[2] = 0;
+            NFComBuf.SetDrivesPWM.data[3] = ui->setMaxPWM->value();
+        }
+        else if(ui->pbMotor3PWMDn->isDown()){
+            NFComBuf.SetDrivesPWM.data[0] = 0;
+            NFComBuf.SetDrivesPWM.data[1] = 0;
+            NFComBuf.SetDrivesPWM.data[2] = 0;
+            NFComBuf.SetDrivesPWM.data[3] = - ui->setMaxPWM->value();
+        }
+        else{
+            NFComBuf.SetDrivesPWM.data[0] = 0;
+            NFComBuf.SetDrivesPWM.data[1] = 0;
+            NFComBuf.SetDrivesPWM.data[2] = 0;
+            NFComBuf.SetDrivesPWM.data[3] = 0;
+        }
+    }
+    if(ui->cbEnDriveCurrent->isChecked()){
+        commandArray[commandCnt++] = NF_COMMAND_SetDrivesCurrent;
+        if(ui->pbMotor0CurrentUp->isDown()){
+            NFComBuf.SetDrivesCurrent.data[0] = ui->setMaxCurrent->value();
+            NFComBuf.SetDrivesCurrent.data[1] = 0;
+            NFComBuf.SetDrivesCurrent.data[2] = 0;
+            NFComBuf.SetDrivesCurrent.data[3] = 0;
+        }
+        else if(ui->pbMotor0CurrentDn->isDown()){
+            NFComBuf.SetDrivesCurrent.data[0] = - ui->setMaxCurrent->value();
+            NFComBuf.SetDrivesCurrent.data[1] = 0;
+            NFComBuf.SetDrivesCurrent.data[2] = 0;
+            NFComBuf.SetDrivesCurrent.data[3] = 0;
+        }
+        else if(ui->pbMotor1CurrentUp->isDown()){
+            NFComBuf.SetDrivesCurrent.data[0] = 0;
+            NFComBuf.SetDrivesCurrent.data[1] = ui->setMaxCurrent->value();
+            NFComBuf.SetDrivesCurrent.data[2] = 0;
+            NFComBuf.SetDrivesCurrent.data[3] = 0;
+        }
+        else if(ui->pbMotor1CurrentDn->isDown()){
+            NFComBuf.SetDrivesCurrent.data[0] = 0;
+            NFComBuf.SetDrivesCurrent.data[1] = - ui->setMaxCurrent->value();
+            NFComBuf.SetDrivesCurrent.data[2] = 0;
+            NFComBuf.SetDrivesCurrent.data[3] = 0;
+        }
+        else if(ui->pbMotor2CurrentUp->isDown()){
+            NFComBuf.SetDrivesCurrent.data[0] = 0;
+            NFComBuf.SetDrivesCurrent.data[1] = 0;
+            NFComBuf.SetDrivesCurrent.data[2] = ui->setMaxCurrent->value();
+            NFComBuf.SetDrivesCurrent.data[3] = 0;
+        }
+        else if(ui->pbMotor2CurrentDn->isDown()){
+            NFComBuf.SetDrivesCurrent.data[0] = 0;
+            NFComBuf.SetDrivesCurrent.data[1] = 0;
+            NFComBuf.SetDrivesCurrent.data[2] = - ui->setMaxCurrent->value();
+            NFComBuf.SetDrivesCurrent.data[3] = 0;
+        }
+        else if(ui->pbMotor3CurrentUp->isDown()){
+            NFComBuf.SetDrivesCurrent.data[0] = 0;
+            NFComBuf.SetDrivesCurrent.data[1] = 0;
+            NFComBuf.SetDrivesCurrent.data[2] = 0;
+            NFComBuf.SetDrivesCurrent.data[3] = ui->setMaxCurrent->value();
+        }
+        else if(ui->pbMotor3CurrentDn->isDown()){
+            NFComBuf.SetDrivesCurrent.data[0] = 0;
+            NFComBuf.SetDrivesCurrent.data[1] = 0;
+            NFComBuf.SetDrivesCurrent.data[2] = 0;
+            NFComBuf.SetDrivesCurrent.data[3] = - ui->setMaxCurrent->value();
+        }
+        else{
+            NFComBuf.SetDrivesCurrent.data[0] = 0;
+            NFComBuf.SetDrivesCurrent.data[1] = 0;
+            NFComBuf.SetDrivesCurrent.data[2] = 0;
+            NFComBuf.SetDrivesCurrent.data[3] = 0;
+        }
     }
     if(ui->cbEnDrivesPosition->isChecked()){
         commandArray[commandCnt++] = NF_COMMAND_SetDrivesPosition;
@@ -211,6 +320,13 @@ void ComSender::updateCommandArray(){
         NFComBuf.SetDrivesMode.data[1] = NF_DrivesMode_PWM;
         NFComBuf.SetDrivesMode.data[2] = NF_DrivesMode_PWM;
         NFComBuf.SetDrivesMode.data[3] = NF_DrivesMode_PWM;
+    }
+    if(ui->pbModeCurrent->isDown()){
+        commandArray[commandCnt++] = NF_COMMAND_SetDrivesMode;
+        NFComBuf.SetDrivesMode.data[0] = NF_DrivesMode_CURRENT;
+        NFComBuf.SetDrivesMode.data[1] = NF_DrivesMode_CURRENT;
+        NFComBuf.SetDrivesMode.data[2] = NF_DrivesMode_CURRENT;
+        NFComBuf.SetDrivesMode.data[3] = NF_DrivesMode_CURRENT;
     }
     if(ui->pbModeSpeed->isDown()){
         commandArray[commandCnt++] = NF_COMMAND_SetDrivesMode;
